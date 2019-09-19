@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+html,
+body,
+#app {
+  height: 100%;
+  overflow: hidden;
+}
+.page {
+  height: 100%;
+  font-size: $font-m-size;
+  font-family: 'Microsoft YaHei', 'arial';
+}
+@include scrollbar;
+
+input[type='password'],
+input[type='tel'],
+input[type='text'],
+input[type='number'] {
+  @include placeholder {
+    color: $border-dark-color;
+  }
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.ivu-menu-submenu-title{
+  .ivu-icon-ios-arrow-down{
+    margin-top: 0 !important;
+  }
+}
+.v-content{
+  background: $bg-color;
+}

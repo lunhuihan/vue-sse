@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>vue-sse</title>
+    <meta name="keywords" content="vue-sse" />
+    <meta name="description" content="vue-sse" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="bookmark" href="./favicon.ico" />
+    <script>
+      function checkBowerInfo() {
+        var nAgt = navigator.userAgent
+        if (
+          nAgt.indexOf('Opera') > -1 ||
+          nAgt.indexOf('MSIE') > -1 ||
+          nAgt.indexOf('Trident/') > -1
+        ) {
+          window.location.href = './static/unsupport.html'
+        } else {
+          return true
+        }
+      }
+      checkBowerInfo()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
