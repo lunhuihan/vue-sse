@@ -1,4 +1,4 @@
-import Http from './httpBase'
+import Http from './base/index'
 
 class SearchTable { 
   basic (query, page, pageSize) { 

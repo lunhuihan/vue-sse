@@ -14,7 +14,7 @@ export default {
   },
   async created () {
     let see = new Sse({
-      url: 'http://10.5.1.140:8083/acct/stream',
+      url: 'https://test.com',
       query: {
         min: 4
       },

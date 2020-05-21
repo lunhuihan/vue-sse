@@ -1,4 +1,4 @@
-import Http from './httpBase'
+import Http from './base/index'
 import DownloadFile from 'utils/download'
 import { typeOf } from 'utils/assist'
 
